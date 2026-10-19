@@ -189,9 +189,7 @@ Estas dificultades retrasaron el desarrollo y la ejecución del proyecto, por lo
 - Distancias euclidianas (no por red vial): son una cota inferior del acceso real.
 - Efecto borde: lo que está justo fuera de la caja no se cargó. Se cuantifica en P2 (columna «núcleo») y la P6
   ordena solo celdas completamente dentro de la caja.
-- La DPA del Lab 03 se carga con su propio `.sql`; nombres de tabla, columnas y SRID se detectan solos y quedan
-  en `etl_log` (`dpa.*`). Si un dump trajo errores no fatales (p. ej. `OWNER TO` un rol inexistente), quedan en
-  `resultados/dpa_carga_errores.log`.
+
 
 
 ## 7. Estructura
